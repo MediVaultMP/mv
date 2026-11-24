@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # MediVault
 
 Blockchain-backed electronic health records: Express + PostgreSQL API, Next.js frontend, and a Solidity integrity registry. Files are encrypted with AES-256-GCM and stored locally or in a private Supabase Storage bucket; SHA-256 hashes and consent expiries are anchored on-chain.
@@ -193,3 +194,6 @@ The backend atomically consumes an approval bound to the patient, doctor, and re
 6. Back up production data and deliberately schedule production migrations only after test sign-off. Never run test migrations against `securechain`.
 
 Migrations `025` and `026` add update approvals and backfill version 1 for existing records with complete integrity/encryption metadata. Records missing that metadata are not fabricated; they require a separate reconciliation decision.
+=======
+# mv
+>>>>>>> c7601cc68a8407dac5aa09547ffe865cb21785cb
